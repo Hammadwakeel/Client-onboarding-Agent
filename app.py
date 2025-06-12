@@ -43,16 +43,16 @@ save_faiss_path = os.path.join(base_dir, 'company_faiss_index')
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 # Email of the user to impersonate
-DELEGATED_USER_EMAIL = 'laurent@autonomous-intelligence.fr'
-sending_email_address = "laurent@autonomous-intelligence.fr"
-sending_email_password = "gpem mqjx noml mtvj"
-receiving_email = 'laurent@autonomous-intelligence.fr'
+DELEGATED_USER_EMAIL = 'your email'
+sending_email_address = "your sending email"
+sending_email_password = "your email password"
+receiving_email = 'recevining email'
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 llm = OpenAI()
 
 # Your original credentials
-username = 'Hasnain'
-password = 'D6H%em$4De9t98G'
+username = 'mongo username'
+password = 'mongo password'
 
 # URL-encode the username and password
 encoded_username = urllib.parse.quote_plus(username)
